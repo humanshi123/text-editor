@@ -3,6 +3,30 @@
 @import 'tailwindcss/utilities';
 
 
+@font-face {
+  font-family: 'ABCReproRegular';
+  src: url('/public/Fonts/ABCReproRegular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'HelveticaNeueCondensedBlack';
+  src: url('/public/Fonts/HelveticaNeueCondensedBlack.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'AcuminProCondBookItalic';
+  src: url('/public/Fonts/AcuminProCondBookItalic.otf') format('opentype');
+}
+@font-face {
+  font-family: 'SharpSansBold';
+  src: url('/public/Fonts/SharpSansBold.otf') format('opentype');
+}
+@font-face {
+  font-family: 'SharpSansExtrabold';
+  src: url('/public/Fonts/SharpSansExtrabold.otf') format('opentype');
+}
+@font-face {
+  font-family: 'SharpSansMediumItalic';
+  src: url('  /Fonts/SharpSansMediumItalic.otf') format('opentype');
+}
 
 * {
   padding: 0;
@@ -39,8 +63,29 @@
   border-radius: 50px;
   margin: 20px 0 0;
 }
+.ql-font-SharpSansMediumItalic {
+  font-family: 'SharpSansMediumItalic';
+}
 
+.ql-font-SharpSansExtrabold {
+  font-family: 'SharpSansExtrabold';
+}
 
+.ql-font-SharpSansBold {
+  font-family: 'SharpSansBold';
+}
+
+.ql-font-AcuminProCondBookItalic {
+  font-family: 'AcuminProCondBookItalic';
+}
+
+.ql-font-HelveticaNeueCondensedBlack {
+  font-family: 'HelveticaNeueCondensedBlack';
+}
+
+.ql-font-ABCReproRegular {
+  font-family: 'ABCReproRegular';
+}
 
 
 
