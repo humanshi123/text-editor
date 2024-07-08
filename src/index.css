@@ -1,0 +1,51 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.page {
+  /* height: 100vh;  
+  padding: 20px; */
+  box-sizing: border-box;
+  page-break-after: always;
+}
+.main-editor .ql-toolbar.ql-snow {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 70px;
+  background: #edf2fa;
+}
+.main-editor .ql-container.ql-snow .ql-editor  {
+  min-height: 500px;
+  max-width: 800px;
+  margin: 30px auto;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+.main-editor .ql-container.ql-snow {
+  background: #f9fbfd;
+  border-top: 1px solid #ccc !important;
+  margin: 20px 0 0;
+}
+.main-button button {
+  background: #93dce79c;
+  padding: 10px 20px;
+  border-radius: 50px;
+  margin: 20px 0 0;
+}
+
+
+
+
+
+
+
+
+
+
