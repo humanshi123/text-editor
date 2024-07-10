@@ -1,8 +1,3 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
-
-
 @font-face {
   font-family: 'ABCReproRegular';
   src: url('/public/Fonts/ABCReproRegular.ttf') format('truetype');
@@ -26,42 +21,6 @@
 @font-face {
   font-family: 'SharpSansMediumItalic';
   src: url('  /Fonts/SharpSansMediumItalic.otf') format('opentype');
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-.page {
-  /* height: 100vh;  
-  padding: 20px; */
-  box-sizing: border-box;
-  page-break-after: always;
-}
-.main-editor .ql-toolbar.ql-snow {
-  border: none;
-  padding: 10px 20px;
-  border-radius: 70px;
-  background: #edf2fa;
-}
-.main-editor .ql-container.ql-snow .ql-editor  {
-  min-height: 500px;
-  max-width: 800px;
-  margin: 30px auto;
-  border: 1px solid #ccc;
-  background: #fff;
-}
-.main-editor .ql-container.ql-snow {
-  background: #f9fbfd;
-  border-top: 1px solid #ccc !important;
-  margin: 20px 0 0;
-}
-.main-button button {
-  background: #93dce79c;
-  padding: 10px 20px;
-  border-radius: 50px;
-  margin: 20px 0 0;
 }
 .ql-font-SharpSansMediumItalic {
   font-family: 'SharpSansMediumItalic';
@@ -87,10 +46,34 @@
   font-family: 'ABCReproRegular';
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.ql-container.ql-snow {
+  width: 70%;
+  background: #ffffff;
+  margin: 10px auto 0px auto !important;
+  min-height: 100vh;
+  border: none !important;
+}
 
-
-
-
-
-
-
+.main-editor {
+  background: #e4e8f3;
+  padding: 20px;
+}
+.ql-editor.ql-blank {
+  height: 100vh; 
+}
+.ql-toolbar.ql-snow {
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #f1f1f1;
+  border: none !important;
+  padding: 15px 15px;
+  border-radius: 24px;
+}
