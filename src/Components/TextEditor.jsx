@@ -11,10 +11,10 @@ function TextEditor() {
   const [value, setValue] = useState('');
   const quillRef = useRef(null);
 
-  const modules = {
+const modules = {
     toolbar: [
       [{ 'font': [] }],
-      [{ 'header': '1' }, { 'header': '2' }, { 'header': '3' }, { 'header': '4' }],
+      [{ 'header': '1' }, { 'header': '2' }],
       [{ 'size': ['small', false, 'large', 'huge'] }],
       ['bold', 'italic', 'underline', 'strike', 'blockquote'],
       [{ 'list': 'ordered' }, { 'list': 'bullet' }, { 'indent': '-1' }, { 'indent': '+1' }],
@@ -50,6 +50,8 @@ function TextEditor() {
       quillRef.current.getEditor().root.classList.add('ql-custom-fonts');
     }
   }, [quillRef]);
+
+
 
   return (
     <div className='main-editor'>
